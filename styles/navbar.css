@@ -1,0 +1,86 @@
+.navbar-container {
+    height: 80px;
+    background: rgb(54, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .query-input-container {
+   display: flex;
+ }
+
+ .search-bar {
+    border-radius: 7px;
+    width: 250px;
+    margin-right: 15px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    background: white;
+ }
+
+ .num-days-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .short-days {
+   background: #e8e8e8;
+   border-radius: 7px 0px 0px 7px;
+   padding: 10px;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+ }
+
+ .short-days:hover {
+   cursor: pointer;
+ }
+
+ .all-days {
+   background: #e8e8e8;
+   border-radius: 0 7px 7px 0;
+   padding: 10px;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   margin-right: 15px;
+ }
+
+ .all-days:hover {
+   cursor: pointer;
+ }
+
+ .num-days {
+   background: white;
+ }
+
+ .icon {
+    margin-left: 25px;
+ }
+
+ .edit-placeholder::placeholder {
+  color: rgb(146, 146, 146);
+}
+.edit-placeholder::-moz-placeholder {
+  color: #b2b2b2;
+}
+.edit-placeholder:-ms-input-placeholder {
+  color: #b2b2b2;
+}
+.edit-placeholder:-moz-placeholder {
+  color: #b2b2b2;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+  margin-left: 15px;
+}
+
+.description {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}

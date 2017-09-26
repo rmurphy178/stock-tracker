@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+.stock-graphs-container {
+    width: 100%;
+    padding: 20px;
+}
+
+rect.highcharts-navigator-mask-inside:hover {
+    cursor: -webkit-grab !important;
+}
+
+rect.highcharts-navigator-mask-inside:active, rect.highcharts-navigator-mask-inside:focus {
+    cursor: -webkit-grabbing !important;
